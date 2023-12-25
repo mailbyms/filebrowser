@@ -14,8 +14,8 @@ body.rtl #listing {
 }
 
 #listing .item div:last-of-type * {
-  text-overflow: ellipsis;
-  overflow: hidden;
+  word-break: break-all;
+  white-space: normal;
 }
 
 #listing>div {

@@ -169,5 +169,7 @@
   }
   #listing.list .item .name {
     width: 100%;
+    white-space: normal;
+    word-break: break-all;
   }
 }
