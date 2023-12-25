@@ -107,7 +107,7 @@ body.rtl #listing {
 }
 
 #listing.mosaic .item div:first-of-type {
-  width: 5em;
+  width: 6em;
 }
 
 #listing.mosaic .item div:last-of-type {
