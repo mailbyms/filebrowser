@@ -37,3 +37,23 @@ For installation instructions please refer to our docs at [https://filebrowser.o
 ## Contributing
 
 If you're interested in contributing to this project, our docs are best places to start [https://filebrowser.org/contributing](https://filebrowser.org/contributing).
+
+### 编译环境
+从 `go.mod` 文件内容得知需要安装 golang 1.20 版本，下载 https://golang.google.cn/dl/go1.20.2.linux-amd64.tar.gz，解压设置路径环境变量即可。  
+git 上 issue 得知需要安装 node v16 版本（不能过高）。
+安装步骤：https://github.com/nodesource/distributions?tab=readme-ov-file#ubuntu-versions
+
+### 编译
+参照：https://filebrowser.org/contributing
+```
+cd frontend
+npm i
+npm run build
+# 回到项目根目录
+make 
+make build .
+```
+编译完成后，可以 strip 一下
+```
+strip filebrowser
+```
